@@ -24,6 +24,6 @@ void main(void){
 	scanf("%f", &fl);
 	printf("Enter value for double:");
 	scanf("%lf", &dd);
-	printf("Enter value for chair:");
+	printf("Enter value for char:");
 	scanf(" %c", &ch);
 }
