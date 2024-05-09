@@ -11,7 +11,7 @@ int main(void){
 	scanf("%lf", &num2);
 
 	while (getchar() != '\n');
-	printf("Enter arithmatic operator (+, -, *, /, %): ");
+	printf("Enter arithmetic operator (+, -, *, /, %): ");
 	scanf(" %c", &op);
 
 	switch(op){
