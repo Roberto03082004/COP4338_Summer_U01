@@ -1,0 +1,85 @@
+
+- Data types in C
+	- int
+		- most C compilers int is usually 4 bytes (2^32)
+		- half of those bytes are in negative and other half are in positive
+			- -2,147,483,648 to 2,147,483,647
+	- short
+		- 2 bytes
+			- -32,768 to 32,768
+	- unsigned int
+		- 4 bytes
+			- 0 to 4,294,967,295
+	- long int
+		- sometimes 4 byte or 8 byte
+	- long long int
+		- usually 8 bytes or 16 bytes
+	- float
+		- usually 4 bytes and can accommodate up to 6 decimals values
+	- double
+		- 8 bytes and can accommodate up to 15 decimal values
+	- long double
+		- 8 bytes to 16 bytes
+	- char
+		- 1 byte (asci characters) 256 characters
+	- int x = 25;
+	- format simplifiers
+		- when printing out a value don't do printf(x)
+		- use printf(%d) for int
+		- use printf(%hd) for short
+		- use printf(%u) for unsigned int 
+		- use printf(%ld) for long int
+		- use printf(%lld) for long long int
+		- use printf(%f) for float
+		- use printf(%lf) for double
+		- use printf(%Lf) for long double
+		- use printf(%c) for char
+		- use %p to get the memory address of a variable
+- Scanner
+	- scanf("%d", &num);
+		- scanner doesnt require a variable it requires an address of the variable
+		- scanner expects an int from variable num
+		- for char you cant do scanf("%c", &ch);
+			- you can use a temporary solution by doing:
+				- scanf(" %c", &ch);
+- Escape sequences
+	- backslash n
+		- It moves the cursor to the start of the next line.
+	-  backslash t
+		- It inserts some whitespace to the left of the cursor and moves the cursor accordingly.
+	- backslash " or '
+		- It is used to display double quotation marks.
+	- backslash backslash
+		- Use to insert backslash character.
+	- backslash v
+		- It is used to insert vertical space.
+	- backslash f 
+		- It is used to move the cursor to the start of the next logical page.
+	- backslash a 
+		- It is used to generate a bell sound in the C program.
+	- backslash ?
+		- It is used to display a question mark.
+	- backslash b
+		- It is used to move the cursor one place backward.
+	- backslash r
+		- It moves the cursor to the start of the current line.
+- Operators
+	- Unary
+		- ++, --
+			- Unary Operator
+	- Binary
+		- +, -, *, /, %
+			- Arithmetic Operator
+		- <, <=, >, >=, == , !=
+			- Rational Operator
+		- &&, ||, !
+			- Logical Operator
+		- &, |, <<, >>, ~, ^
+			- Bitwise Operator
+		- =, +=, -=, *=, /=, %=
+			- Assignment Operator
+	- Ternary
+		- ?:
+			- Ternary or Conditional Operator
+	- sizeof
+		- sizeof(expression)
